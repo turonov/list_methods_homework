@@ -9,6 +9,6 @@ def main(fruits,x,i):
         list: return answer
     """
     a=fruits
-    a.insert(x, i)
+    a.insert(i, x)
     return a
 print(main(["apple","banana"], 1, "kiwi"))
